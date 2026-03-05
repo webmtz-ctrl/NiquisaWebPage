@@ -1043,3 +1043,232 @@ nav ul li a.active { color: #c0392b; }
 @media (max-width: 768px) {
   .whatsapp-contacto { font-size: 0.9rem; }
 }
+
+
+/* ═══════════════════════════════
+   RESPONSIVE - TABLETS (max 1024px)
+═══════════════════════════════ */
+@media (max-width: 1024px) {
+
+  /* Navbar */
+  nav {
+    padding: 0 30px;
+  }
+
+  nav ul {
+    gap: 20px;
+  }
+
+  /* Hero */
+  .hero h1 { font-size: 2.4rem; }
+  .hero h2 { font-size: 1.3rem; }
+
+  /* Nosotros */
+  #nosotros { padding: 80px 40px; }
+  .nosotros-container { gap: 40px; }
+
+  /* Servicios */
+  #servicios { padding: 80px 40px; }
+  .servicios-grid { grid-template-columns: repeat(2, 1fr); }
+  .servicios-grid--2 { flex-wrap: wrap; }
+  .servicios-grid--2 .servicio-card { width: 100%; max-width: 360px; }
+
+  /* Aduanas */
+  #aduanas { padding: 80px 40px; }
+
+  /* Mejor opción */
+  .mejor-opcion { padding: 80px 40px; }
+
+  /* Beneficios */
+  #beneficios { padding: 80px 40px; }
+  .beneficios-img img { height: 380px; }
+
+  /* Contacto */
+  #contacto { padding: 80px 40px 0; }
+}
+
+
+/* ═══════════════════════════════
+   RESPONSIVE - MÓVIL (max 768px)
+═══════════════════════════════ */
+@media (max-width: 768px) {
+
+  /* ── Navbar ── */
+  nav {
+    padding: 0 20px;
+    height: 60px;
+  }
+
+  nav ul { display: none; }
+
+  .nav-logo img { height: 40px; }
+
+  .nav-cta {
+    padding: 8px 18px;
+    font-size: 0.85rem;
+  }
+
+  /* ── Hero ── */
+  .hero {
+    padding: 100px 24px 60px;
+  }
+
+  .hero-logo img { height: 100px; }
+  .hero h1 { font-size: 1.8rem; }
+  .hero h2 { font-size: 1rem; }
+  .hero p { font-size: 0.88rem; }
+
+  /* ── Nosotros ── */
+  #nosotros { padding: 60px 24px; }
+
+  .nosotros-container {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .nosotros-img img { height: 260px; }
+
+  .nosotros-content h2 { font-size: 1.6rem; }
+  .nosotros-content h3 { font-size: 1.05rem; }
+
+  .feature { gap: 14px; }
+  .feature-icon { width: 48px; height: 48px; min-width: 48px; }
+  .feature-text h4 { font-size: 1rem; }
+
+  /* ── Servicios ── */
+  #servicios { padding: 60px 24px; }
+
+  .servicios-titulo { font-size: 1.6rem; }
+  .servicios-subtitulo { font-size: 1rem; }
+
+  .servicios-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .servicios-grid--2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .servicios-grid--2 .servicio-card {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  /* ── Aduanas ── */
+  #aduanas { padding: 60px 24px; }
+
+  .aduanas-titulo { font-size: 1.6rem; }
+  .aduanas-desc { font-size: 0.95rem; }
+
+  .aduanas-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  /* ── Mejor opción ── */
+  .mejor-opcion { padding: 60px 24px; }
+
+  .mejor-titulo { font-size: 1.2rem; }
+
+  .mejor-img-grande img { height: 220px; }
+
+  .mejor-middle {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .mejor-img-small img { height: 180px; }
+
+  .mejor-bottom { max-width: 100%; }
+
+  /* ── Beneficios ── */
+  #beneficios { padding: 60px 24px; }
+
+  .beneficios-titulo { font-size: 1.6rem; }
+
+  .beneficios-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .beneficios-img img { height: 260px; }
+
+  .beneficios-content {
+    padding: 28px 22px;
+  }
+
+  .beneficios-content h3 { font-size: 1.1rem; }
+  .beneficios-lista li { font-size: 0.88rem; }
+
+  /* ── Contacto ── */
+  #contacto { padding: 60px 24px 0; }
+
+  .contacto-titulo { font-size: 1.6rem; }
+
+  .contacto-grid {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+
+  .contacto-logo img { height: 80px; }
+
+  .contacto-lista li span { font-size: 0.92rem; }
+
+  .contacto-mapa iframe { height: 260px; }
+
+  .contacto-footer { margin-top: 40px; }
+  .contacto-footer p { font-size: 0.78rem; }
+
+  /* ── WhatsApp ── */
+  .whatsapp-btn {
+    width: 50px;
+    height: 50px;
+    bottom: 20px;
+    right: 20px;
+  }
+
+  .whatsapp-btn svg { width: 26px; height: 26px; }
+}
+
+
+/* ═══════════════════════════════
+   RESPONSIVE - MÓVIL PEQUEÑO (max 480px)
+═══════════════════════════════ */
+@media (max-width: 480px) {
+
+  /* Hero */
+  .hero h1 { font-size: 1.5rem; }
+  .hero h2 { font-size: 0.95rem; }
+  .hero p { font-size: 0.82rem; }
+  .hero-logo img { height: 80px; }
+
+  /* Nosotros */
+  .nosotros-content h2 { font-size: 1.4rem; }
+  .nosotros-content h3 { font-size: 0.95rem; }
+
+  /* Servicios */
+  .servicio-card { padding: 28px 18px; }
+  .servicio-card h4 { font-size: 0.95rem; }
+  .servicio-card p { font-size: 0.82rem; }
+
+  /* Aduanas */
+  .aduana-card { padding: 28px 18px; }
+  .aduana-card h4 { font-size: 0.95rem; }
+
+  /* Beneficios */
+  .beneficios-content h3 { font-size: 1rem; }
+  .beneficios-content p { font-size: 0.85rem; }
+  .beneficios-lista li { font-size: 0.84rem; }
+
+  /* Contacto */
+  .contacto-icon {
+    width: 44px;
+    height: 44px;
+    min-width: 44px;
+  }
+
+  .contacto-icon img { width: 22px; height: 22px; }
+  .contacto-lista li span { font-size: 0.88rem; }
+}
